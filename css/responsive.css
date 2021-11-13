@@ -1,0 +1,411 @@
+/* == extra small sevice ==*/
+
+@media (max-width: 575px){
+  .navbar-brand{
+    width: 180px;
+    padding: 0;
+  }
+
+#banner .banner-text .btn.btn-primary{
+  font-size: 14px;
+  width:90px;
+  margin-left: 75px;
+}
+#free-spin .spin-image img{
+  width: 80%;
+} 
+#footer .links .heading-2{
+  text-align: center;
+}
+} 
+/*== small sevice ==*/
+@media (max-width: 767px){
+  .navbar .nav-item{
+    padding-top:20px;
+  }
+  .navbar .nav-item .nav-link.active{
+    padding-left: 0;
+  }
+  .navbar .nav-item .nav-link{
+    font-size: 20px;
+    padding:0;
+  } 
+ .navbar .navbar-toggler span{
+   color: #fff;
+ }
+ .navbar .navbar-toggler{
+  border-color: #fff;
+}
+  .d-flex{
+    padding-left:0;
+  }
+  .btn.btn-outline-success{
+    font-size:16px;
+    padding:7px 18px;
+  }
+   
+  #banner .banner-image{
+    position: static;
+    text-align: center;
+  }
+  #banner .banner-image img{
+    width: 85%;
+  }
+  #banner .banner-text{
+    text-align: center;
+  }
+  #banner .banner-text h3{
+    padding-top: 80px;
+  }
+  #banner .banner-text h1{
+    font-size: 200px;
+    padding-top: 20px;
+  }
+
+  .banner-text .btn.btn-primary{
+    margin-bottom: 100px;
+    font-size: 20px;
+    padding:4px 18px;
+    margin-right: 110px;
+  }
+  #banner .banner-text p{
+    padding-right: 0;
+  }
+  #register .reg{
+    padding-top: 80px;
+    clip-path:none;
+  }
+   #register .reg .account{
+     margin-bottom: 20px;
+   }
+   #register .account h2{
+     padding-top: 0;
+     font-size: 36px;
+   }
+   #register .reg .account h3{
+     font-size: 22px;
+   }
+   #register .reg .account p{
+    padding-bottom: 0; 
+   }
+   #games{
+     padding-top:400px;
+   }
+   #games .heading h2{
+     font-size: 32px;
+   }
+   #games .games-item .btn.btn-primary{
+     font-size: 16px;
+     padding: 2px 28px;
+   }
+   #free-spin .spin-image{
+     text-align: center;
+   }
+   #free-spin .spin-image img{
+    width: 80%;
+  }  
+  #free-spin .spin-text h3{
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  #free-spin .spin-text p{
+    padding-bottom: 30px;
+  }
+  #free-spin .spin-text p:first-of-type{
+    padding-right:10px;
+  }
+  .spin-text .btn.btn-primary{
+    padding: 6px 30px;
+    font-size: 16px;
+  }
+   #pricing-plan .heading-1 h4{
+     font-size: 32px;
+     padding-bottom: 15px;
+   }
+  #pricing-plan .plans h3{
+    font-size: 28px;
+  }
+  #pricing-plan .plans h4{
+    font-size: 32px;
+  }
+  #pricing-plan .plan-item .feature h5{
+    margin-top: 30px;
+  }
+  #pricing-plan .plans p{
+    font-size: 16px;
+    line-height: 14px;
+  }
+  #pricing-plan .plans .btn.btn-primary{
+    font-size: 14px;
+    padding:10px 30px;
+  }
+   #accordion-bg .heading-1 h4{
+     font-size: 24px;
+     text-align: center;
+   }
+   #accordion-bg .accordion-body{
+    font-size: 14px;
+  }
+  .accordion-button{
+    font-size: 16px;
+  }
+  #today-list .list h4{
+    font-size:14px;
+  }
+   .nicescroll-cursors{
+    right:-5px;
+  }
+  .scrollbar{
+    right: 0;
+  }
+  .subscribe .heading-2 h5{
+    font-size: 24px;
+  }
+  #footer .heading-2 h5{
+    font-size: 28px;
+  } 
+  .back-to-top{
+    right: 24px;
+  }
+}
+
+/*== medium sevice ==*/
+
+@media (min-width: 768px)and (max-width: 991px){
+  .navbar .nav-item{
+    padding-top:20px;
+  }
+  .navbar .nav-item .nav-link.active{
+    padding-left: 0;
+  }
+  .navbar .nav-item .nav-link{
+    font-size: 20px;
+    padding:0;
+  } 
+  .navbar .navbar-toggler span{
+    color: #fff;
+  }
+  .navbar .navbar-toggler{
+    border-color: #fff;
+  }
+  .d-flex{
+    padding-left:0;
+  }
+  #banner .banner-image{
+    position: static;
+    text-align: center;
+  }
+  #banner .banner-image img{
+    width: 80%;
+  }
+  #banner .banner-text{
+    text-align: center;
+  }
+  #banner .banner-text h1{
+    font-size: 250px;
+    padding-top: 20px;
+  }
+  #banner .banner-text p{
+    padding:0;
+  }
+  #banner .banner-text .btn.btn-primary{
+    margin-right: 150px;
+  }
+  #register .account h2{
+    padding-top: 15px;
+    font-size: 32px;
+  }
+  #register .account h3{
+    font-size: 22px;
+    padding-top:5px;
+  }
+  #register .account p{
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  #games{
+    padding-bottom: 40px;
+  }
+  #games .games-item h3{
+    padding-top: 100px;
+  }
+  #games .games-item .btn.btn-primary{
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding:0px 18px;
+  }
+  #free-spin .spin-image img{
+    width: 85%;
+  }  
+  #free-spin .spin-text h3{
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  #free-spin .spin-text p{
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  #free-spin .spin-text p:first-of-type{
+    padding-right: 20px;
+  }
+  .spin-text .btn.btn-primary{
+    font-size: 18px;
+    padding:4px 30px;
+  }
+  #pricing-plan{
+    padding-bottom: 50px;
+  }
+  
+  #pricing-plan .heading-1 h4{
+    font-size: 38px;
+  }
+  #pricing-plan .feature{
+    padding-top: 10px;
+  }
+
+  #pricing-plan .plans h3{
+    font-size: 28px;
+    padding-top: 42px;
+  }
+  #pricing-plan .plans h4{
+    font-size: 32px;
+  }
+  #pricing-plan .plans p{
+    font-size: 16px;
+    line-height: 14px;
+  }
+  #pricing-plan .plans .btn.btn-primary{
+    font-size: 14px;
+    padding:8px 18px;
+    bottom: -20px;
+  }
+  #accordion-bg .heading-1 h4{
+    font-size: 32px;
+    text-align: center;
+  }
+  .tr{
+    width: 35%;
+  }
+  #clock{
+    width: 40%;
+  }
+  .nicescroll-cursors{
+    right: -20px;
+  }
+  .scrollbar{
+    right: -15px;
+  }
+ 
+  .subscribe .heading-2 h5{
+    font-size: 28px;
+  }
+  #footer .heading-2 h5{
+    font-size: 28px;
+  }
+  #footer .about p{
+    font-size: 14px;
+    padding-right: 8px;
+  }
+  #footer .footer-icon{
+    margin-right: 4px;
+  }
+  #footer .links .links-1 ul li a{
+    font-size: 15px;
+  }
+}
+
+/*== large device == */
+@media (min-width: 992px) and (max-width: 1199px){ 
+  .navbar-brand{
+    width: 200px;
+  }
+  .navbar .nav-item .nav-link{
+    font-size: 16px;
+    padding-right:0;
+  }
+  .navbar .nav-item .nav-link.active{
+    padding-left: 15px;
+  }
+  .btn.btn-outline-success{
+    font-size:16px;
+    padding:5px 18px;
+  }
+  #banner .banner-image{
+    left: 0;
+  }
+  #banner .banner-image img{
+   width: 75%;
+  }  
+  #banner .banner-text{
+    margin-left: 100px;
+  }
+  #banner .banner-text h1{
+    font-size: 220px;
+    padding-top: 30px;
+  }
+  #banner .banner-text p{
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .banner-text .btn.btn-primary{
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  #free-spin .spin-image img{
+    width: 85%;
+  } 
+  #pricing-plan .plans h3{
+    font-size: 28px;
+  }
+  #pricing-plan .plans h4{
+    font-size: 32px;
+  }
+  #pricing-plan .plans p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #pricing-plan .plans .btn.btn-primary{
+    font-size: 16px;
+    padding:10px 30px;
+  }
+  #accordion-bg .heading-1 h4{
+    font-size: 32px;
+  }
+  .nicescroll-cursors{
+    right: -20px;
+  }
+  .scrollbar{
+    right: -15px;
+  }
+ .subscribe img{
+   margin-right: 8px;
+ }
+ }
+
+/*== extra large device ==*/
+
+  @media (min-width: 1200px)and (max-width: 1399px) {
+    .navbar .nav-item .nav-link{
+      padding-right: 0;
+    }
+    .navbar .nav-item .nav-link.active{
+      padding-left: 15px;
+    }
+    #banner .banner-image{
+     left:-50px;
+    }
+    #banner .banner-image img{
+      width: 90%;
+     } 
+    #banner .banner-text h1{
+      font-size: 300px;
+    }
+    #banner .banner-text{
+      margin-left: 80px;
+    }
+    #pricing-plan .plans .btn.btn-primary{
+      font-size: 16px;
+      padding:10px 30px;
+    }
+  }
