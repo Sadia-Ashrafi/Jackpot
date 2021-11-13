@@ -138,7 +138,7 @@ img{
     margin-top: -55px;
     margin-left: -5px;
     background:-webkit-linear-gradient(#ffee00,#e87f1de3);
-    background-clip: text;
+    -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 }
  
@@ -226,7 +226,7 @@ img{
     font-weight: 400;
     text-transform: capitalize;
     background:-webkit-linear-gradient(yellow , orange);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -317,7 +317,7 @@ img{
     font-weight: 400;
     text-transform: capitalize;
     padding-top: 72px;
-    background:linear-gradient(#f7e822 , #f88e2ae3);
+    background:-webkit-linear-gradient(#f7e822 , #f88e2ae3);
     background-clip: text;
     -webkit-text-fill-color: transparent;  
 }
@@ -384,7 +384,7 @@ img{
     text-align: center;
     text-transform: capitalize;
     padding-top: 72px;
-     background:linear-gradient(#f7e822 , #f88e2ae3);
+    background:-webkit-linear-gradient(#f7e822 , #f88e2ae3);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
