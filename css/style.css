@@ -146,22 +146,22 @@ img{
     font-family: var(--f1);
     font-size: 16px;
     font-weight: 400;
-    padding-right: 170px;
-    text-align: center;   
+    text-align: center;
+    padding-right:160px;
+    padding-left: 10px;
     color:#fff;
     margin-top: -30px;
 }
 #banner .banner-text .btn.btn-primary{
-  margin-left: 160px;
-  font-family: var(--f2);
-  font-size: 24px;
-  border-radius: 8px;
-  padding:6px 28px;
-  margin-bottom: 240px;
-  text-transform: capitalize;
-  text-shadow: 3px 3px var(--cl1);
-  background-image: linear-gradient(var(--cl4), var(--cl1));
-  border-bottom: 5px solid #11118a;
+   font-family: var(--f2);
+   font-size: 24px;
+   border-radius: 8px;
+   padding:6px 28px;
+   margin-bottom: 240px;
+   text-transform: capitalize;
+   text-shadow: 3px 3px var(--cl1);
+   background-image: linear-gradient(var(--cl4), var(--cl1));
+   border-bottom: 5px solid #11118a;
 }
 /* == banner ends == */
 
@@ -191,7 +191,7 @@ img{
    font-size: 50px;
    padding-top: 24px;
    background:-webkit-linear-gradient(#ffee00,#e87f1de3);
-   background-clip:text;
+   -webkit-background-clip:text;
    -webkit-text-fill-color: transparent;  
 }
 #register .account h3{
@@ -318,7 +318,7 @@ img{
     text-transform: capitalize;
     padding-top: 72px;
     background:-webkit-linear-gradient(#f7e822 , #f88e2ae3);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
 }
 #free-spin .spin-text p{
@@ -385,7 +385,7 @@ img{
     text-transform: capitalize;
     padding-top: 72px;
     background:-webkit-linear-gradient(#f7e822 , #f88e2ae3);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   #pricing-plan .plans h3{
@@ -686,6 +686,7 @@ img{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 67px;
+    border-bottom: 3px solid #11118a;
     transition: all linear .4s;
 }
 #footer .footer-icon i{
@@ -694,7 +695,8 @@ img{
     font-size: 20px;
 }
 #footer .footer-icon:hover{
-    background-image: linear-gradient(var(--cl6), var(--cl5));   
+    background-image: linear-gradient(var(--cl6), var(--cl5));  
+    border-bottom: 3px solid #52123c; 
 }
 #footer .links {
     background-color: burlywood;
